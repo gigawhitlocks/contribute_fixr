@@ -1,0 +1,311 @@
+(lp0
+Vrelease new version and remove obsolete files
+p1
+aV
+p2
+aVadd methods to implement file sync with current local and remote directory
+p3
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p4
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p5
+aVfixed schema conflicts
+p6
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p7
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p8
+aVused let call in spec test
+p9
+aVfeat(messageformat-interpolation): implements usage of messageformat
+p10
+aVUpload project structure.
+p11
+aVfinished basic question#index view
+p12
+aVdelete things
+p13
+aVdfgdfg
+p14
+aVAdded ImageMagick\u000a\u000aAlso, last commit message was messed up because apparently cmd+enter causes a commit when editing in GitHub.
+p15
+aVadd more zip mime types to validation
+p16
+aVrelease new version and remove obsolete files
+p17
+ag2
+aVadd methods to implement file sync with current local and remote directory
+p18
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p19
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p20
+aVfixed schema conflicts
+p21
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p22
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p23
+aVused let call in spec test
+p24
+aVfeat(messageformat-interpolation): implements usage of messageformat
+p25
+aVUpload project structure.
+p26
+aVfinished basic question#index view
+p27
+aVdelete things
+p28
+aVdfgdfg
+p29
+aVAdded ImageMagick\u000a\u000aAlso, last commit message was messed up because apparently cmd+enter causes a commit when editing in GitHub.
+p30
+aVadd more zip mime types to validation
+p31
+aVRake simple integration test was failing with: 'run_command': sh: -c:\u000aline 0: syntax error near unexpected token '>'\u000a(DaemonController::StartError) on bash < 4.0
+p32
+aVrelease new version and remove obsolete files
+p33
+ag2
+aVadd methods to implement file sync with current local and remote directory
+p34
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p35
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p36
+aVfixed schema conflicts
+p37
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p38
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p39
+aVused let call in spec test
+p40
+aVfeat(messageformat-interpolation): implements usage of messageformat
+p41
+aVUpload project structure.
+p42
+aVfinished basic question#index view
+p43
+aVdelete things
+p44
+aVdfgdfg
+p45
+aVAdded ImageMagick\u000a\u000aAlso, last commit message was messed up because apparently cmd+enter causes a commit when editing in GitHub.
+p46
+aVRake simple integration test was failing with: 'run_command': sh: -c:\u000aline 0: syntax error near unexpected token '>'\u000a(DaemonController::StartError) on bash < 4.0
+p47
+aVrelease new version and remove obsolete files
+p48
+ag2
+aVadd methods to implement file sync with current local and remote directory
+p49
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p50
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p51
+aVfixed schema conflicts
+p52
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p53
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p54
+aVused let call in spec test
+p55
+aVfeat(messageformat-interpolation): implements usage of messageformat
+p56
+aVUpload project structure.
+p57
+aVfinished basic question#index view
+p58
+aVdelete things
+p59
+aVdfgdfg
+p60
+aVAdded ImageMagick\u000a\u000aAlso, last commit message was messed up because apparently cmd+enter causes a commit when editing in GitHub.
+p61
+aVs on d
+p62
+aVRake simple integration test was failing with: 'run_command': sh: -c:\u000aline 0: syntax error near unexpected token '>'\u000a(DaemonController::StartError) on bash < 4.0
+p63
+aVrelease new version and remove obsolete files
+p64
+ag2
+aVadd methods to implement file sync with current local and remote directory
+p65
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p66
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p67
+aVfixed schema conflicts
+p68
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p69
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p70
+aVused let call in spec test
+p71
+aVfeat(messageformat-interpolation): implements usage of messageformat
+p72
+aVUpload project structure.
+p73
+aVfinished basic question#index view
+p74
+aVdelete things
+p75
+aVdfgdfg
+p76
+aVfixed ordering
+p77
+aVprogram that just opens a window
+p78
+aVs on d
+p79
+aVRake simple integration test was failing with: 'run_command': sh: -c:\u000aline 0: syntax error near unexpected token '>'\u000a(DaemonController::StartError) on bash < 4.0
+p80
+aVrelease new version and remove obsolete files
+p81
+ag2
+aVadd methods to implement file sync with current local and remote directory
+p82
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p83
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p84
+aVfixed schema conflicts
+p85
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p86
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p87
+aVused let call in spec test
+p88
+aVfeat(messageformat-interpolation): implements usage of messageformat
+p89
+aVUpload project structure.
+p90
+aVfinished basic question#index view
+p91
+aVfixed ordering
+p92
+aVprogram that just opens a window
+p93
+aVs on d
+p94
+aVRake simple integration test was failing with: 'run_command': sh: -c:\u000aline 0: syntax error near unexpected token '>'\u000a(DaemonController::StartError) on bash < 4.0
+p95
+aVrelease new version and remove obsolete files
+p96
+ag2
+aVadd methods to implement file sync with current local and remote directory
+p97
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p98
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p99
+aVfixed schema conflicts
+p100
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p101
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p102
+aVused let call in spec test
+p103
+aVfeat(messageformat-interpolation): implements usage of messageformat
+p104
+aVUpload project structure.
+p105
+aVfinished basic question#index view
+p106
+aVUpdate PXE Booting.md
+p107
+aVfixed ordering
+p108
+aVprogram that just opens a window
+p109
+aVs on d
+p110
+aVRake simple integration test was failing with: 'run_command': sh: -c:\u000aline 0: syntax error near unexpected token '>'\u000a(DaemonController::StartError) on bash < 4.0
+p111
+aVrelease new version and remove obsolete files
+p112
+ag2
+aVadd methods to implement file sync with current local and remote directory
+p113
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p114
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p115
+aVfixed schema conflicts
+p116
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p117
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p118
+aVused let call in spec test
+p119
+aVfeat(messageformat-interpolation): implements usage of messageformat
+p120
+aVUpload project structure.
+p121
+aVAdded a filechooser to the script window. this is not yet connected to\u000athe game, it is just a UI addition.
+p122
+aVUpdate PXE Booting.md
+p123
+aVfixed ordering
+p124
+aVprogram that just opens a window
+p125
+aVs on d
+p126
+aVRake simple integration test was failing with: 'run_command': sh: -c:\u000aline 0: syntax error near unexpected token '>'\u000a(DaemonController::StartError) on bash < 4.0
+p127
+aVrelease new version and remove obsolete files
+p128
+ag2
+aVadd methods to implement file sync with current local and remote directory
+p129
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p130
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p131
+aVfixed schema conflicts
+p132
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p133
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p134
+aVused let call in spec test
+p135
+aVfeat(messageformat-interpolation): implements usage of messageformat
+p136
+aVAdded a filechooser to the script window. this is not yet connected to\u000athe game, it is just a UI addition.
+p137
+aVUpdate PXE Booting.md
+p138
+aVfixed ordering
+p139
+aVprogram that just opens a window
+p140
+aVs on d
+p141
+aVRake simple integration test was failing with: 'run_command': sh: -c:\u000aline 0: syntax error near unexpected token '>'\u000a(DaemonController::StartError) on bash < 4.0
+p142
+aVrelease new version and remove obsolete files
+p143
+ag2
+aVadd methods to implement file sync with current local and remote directory
+p144
+aVAdded date handling and URL summary list\u000a\u000aAdded functions to parse two columns of date information, and generate\u000aXML tags for the various permutations of date types.  Also added an\u000aoutput CSV file containing file ID, XML type, PID and URL for UMDM\u000afiles.
+p145
+aVAdded dedicated math functions; can no longer attack NPCs without line of sight
+p146
+aVfixed schema conflicts
+p147
+aVRegistered intent to transition singletons/crowbar/crowbar/1863 from build-testing development/cloudera-build centos-6.2 to build-tested development/cloudera-build centos-6.2
+p148
+aVFixes #3676: Move opal/if and hotel improvements to v1.7\u000a\u000a---svn-pre-commit-ignore-below---\u000a\u000ar28343 [[BR]]\u000aDefensive programming: add a constructor for opal_if_t that zeros\u000aeverything out before using it.  \u000a\u000aThis is not in response to any known bug, but rather just a\u000apre-emptive, defensive move to help prevent bugs in code that forgets\u000ato initialize a field.\u000a\u000ar28344 [[BR]]\u000aAlso support getting the MAC and MTU.\u000a\u000ar28345 [[BR]]\u000aAdd public functions for retrieving the MAC and MTU (paired with\u000ar28344).\u000a\u000ar28395 [[BR]]\u000aAhem....cleanup a copy/paste error in naming of these functions\u000a\u000ar28757 [[BR]]\u000aAdd an oh-so-slightly faster variant of the hotel "checkin" action\u000a(since this is used in the fast path) for when you ''know'' that there\u000awill be a room available:\u000a\u000a * Don't do the last_unoccupied_room check\u000a * Return void
+p149
+aVused let call in spec test
+p150
+a.
