@@ -4,26 +4,30 @@ import os
 import random
 from datetime import datetime, timedelta
 import subprocess
-import string
+import pickle
 
 if (len(argv) != 2):
     print("USAGE: ./fixr.py PATH/TO/REPOSITORY")
+    exit(1)
 
+runpath = os.getcwd()
 path = argv[1]
 os.chdir(path)
+
+with open(runpath+"/commit_messages.pickle", 'r') as fh:
+    messages = pickle.load(fh)
+
 def generate_commits():
     time = datetime.now()
     for i in range(0, 365):
-        message = "".join(
-                [random.choice(string.ascii_letters) for x in range (0,10)])
-
-        subprocess.call("echo "+message+" > DONT_README", shell=True)
+        formatted_time = time.strftime("\'%a %b %d %H:%M:%S %Y -0500\'")
+        subprocess.call("fortune > DONT_README", shell=True)
         subprocess.call("git add DONT_README", shell=True)
         subprocess.call("env GIT_AUTHOR_DATE="\
-                +time.strftime("\'%a %b %d %H:%M:%S %Y -0500\'")\
-                +" git commit DONT_README -m " + message, shell=True)
-
-
+                + formatted_time \
+                +" GIT_COMMITTER_DATE="+formatted_time\
+                +" git commit DONT_README -m \"" + random.choice(messages) + "\"", shell=True)
         time = time - timedelta(days=1)
-generate_commits()
 
+for x in range(1000):
+    generate_commits()
