@@ -18,6 +18,10 @@ os.chdir(path)
 with open(runpath+"/commit_messages.pickle", 'r') as fh:
     messages = pickle.load(fh)
 
+for m in messages :
+    if m == "":
+        messages.remove(m)
+
 def generate_commits():
     time = datetime.now()
     for i in range(0, 365):
@@ -27,9 +31,10 @@ def generate_commits():
         subprocess.call("env GIT_AUTHOR_DATE="\
                 + formatted_time \
                 +" GIT_COMMITTER_DATE="+formatted_time\
-                +" git commit DONT_README -m \"" + random.choice(messages) + "\" > /dev/null", shell=True)
+                +"> /dev/null git commit DONT_README -m \"" + random.choice(messages) + "\"", shell=True)
         time = time - timedelta(days=1)
 
+
 for x in range(1000):
-    sys.stdout.write("%d commits\r" %x)
+    sys.stdout.write("%d commits generated per day, %d total.\r\n" %(x, x*365))
     generate_commits()
