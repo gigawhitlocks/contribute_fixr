@@ -5,6 +5,7 @@ import random
 from datetime import datetime, timedelta
 import subprocess
 import pickle
+import sys
 
 if (len(argv) != 2):
     print("USAGE: ./fixr.py PATH/TO/REPOSITORY")
@@ -26,8 +27,9 @@ def generate_commits():
         subprocess.call("env GIT_AUTHOR_DATE="\
                 + formatted_time \
                 +" GIT_COMMITTER_DATE="+formatted_time\
-                +" git commit DONT_README -m \"" + random.choice(messages) + "\"", shell=True)
+                +" git commit DONT_README -m \"" + random.choice(messages) + "\" > /dev/null", shell=True)
         time = time - timedelta(days=1)
 
 for x in range(1000):
+    sys.stdout.write("%d commits\r" %x)
     generate_commits()
